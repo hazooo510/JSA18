@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Chi tiết game</title>
+  <link rel="stylesheet" href="detailsmold.css">
+</head>
+
+<body>
+<header>
+  <h2 class="header">🎮 Chi tiết game</h2>
+  <nav>
+    <a href="Home_real.html">Home</a>
+    <a href="Games.html">Games</a>
+    <a href="Genres.html">Genres</a>
+    <a href="News.html">News</a>
+    <a href="Trending.html">Trending</a>
+    <a href ="Login.html">Logout</a>
+  </nav>
+</header>
+
+<div class="container">
+
+    <!-- Banner -->
+    <div class="game-banner">
+      <img id="game-image-banner" src="https://via.placeholder.com/1200x400" alt="Game Banner">
+    </div>
+
+    <!-- Thông tin chính -->
+    <div class="game-main">
+      <div class="game-thumbnail">
+        <img id="game-image" src="https://via.placeholder.com/300x400" alt="Thumbnail">
+      </div>
+
+      <div class="game-info">
+        <h1 id="game-title">Game Title</h1>
+
+        <p class="genre">Thể loại: <span id="genre">...</span></p>
+        <p class="platform">Nền tảng: <span id="platform">...</span></p>
+        <p class="publisher">Nhà phát hành: <span id="publisher">...</span></p>
+        <p class="release">Ngày phát hành: <span id="release">...</span></p>
+
+        <p class="rating">⭐ Đánh giá: <span id="rating">...</span></p>
+
+        <a class="download-btn" href="#">Tải game</a>
+      </div>
+    </div>
+
+    <!-- Mô tả -->
+    <div class="game-description">
+      <h2>Mô tả</h2>
+      <p id="description">
+        Đây là phần mô tả game. Bạn có thể lấy từ API và render vào đây.
+      </p>
+    </div>
+
+    <div class="game-gallery">
+      <h2>Hình ảnh</h2>
+      <div class="images">
+        <img src="https://via.placeholder.com/300" alt="">
+        <img src="https://via.placeholder.com/300" alt="">
+        <img src="https://via.placeholder.com/300" alt="">
+      </div>
+    </div>
+
+    <div class="system-requirements">
+      <h2>Cấu hình yêu cầu</h2>
+      <ul>
+        <li>CPU: Intel i5</li>
+        <li>RAM: 8GB</li>
+        <li>GPU: GTX 1050</li>
+        <li>Storage: 20GB</li>
+      </ul>
+    </div>
+
+  </div>
+  <script src="detailsmold.js"></script>
+</body>
+</html>

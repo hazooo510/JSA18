@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng Ký - Game World</title>
+    <link rel="stylesheet" href="login_register.css">
+</head>
+
+    <body class="register-bg">
+    <div class="auth-box">
+        <div class="logo"><img src="./img/Game studio.png" alt="Game Logo" width="70" height="70"></div>
+        <h2>KHỞI TẠO ANH HÙNG</h2>
+        
+        <form method="POST">
+            <div class="field">
+                <input type="text" name="username" id="username" placeholder="Tên tài khoản mong muốn" required>
+            </div>
+            <div class="field">
+                <input type="email" name="email" id="email" placeholder="Email liên kết" required>
+            </div>
+            <div class="field">
+                <input type="password" name="password" id="password" placeholder="Mật khẩu bảo mật" required>
+            </div>
+            <div class="field">
+                <input type="password" name="re-password" id="re-password" placeholder="Xác nhận mật khẩu" required>
+            </div>
+            <button type="button" class="btn-neon btn-red" id="register-btn">TẠO TÀI KHOẢN</button>
+        </form>
+
+        <div class="footer-text">
+            Đã có tài khoản? <a href="login.html">Đăng nhập tại đây</a>
+        </div>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>
