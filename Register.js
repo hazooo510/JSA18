@@ -22,5 +22,6 @@ btnRegister.onclick = function(){
 
     console.log(user)
     localStorage.setItem('register_information', JSON.stringify(user))
+    alert('Đăng ký thành công')
 }
 
